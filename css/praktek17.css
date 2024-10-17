@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    font-family: Arial,sans-serif;
+    justify-content: center;
+}
+.container-list{
+    background-color:red;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.75);
+}
+h3 {
+    text-align: center;
+    color: white;
+    padding: 10px ;
+    margin-top: 0;
+    font-size:xx-large;
+}
+.ordered {
+    background-color: orangered;
+}
+.unordered {
+    background-color: orange;
+}
+.description {
+    background-color: rgb(80, 167, 196);
+}
+ol, ul {
+    padding-left: 20px;
+}
+dl {
+    padding-left: 10px;
+}
+dt {
+    font-weight: bold;
+    color: rgb(234, 50, 50);
+}
+.grey1{
+    background-color: #f4f4f4;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+.grey2{
+    background-color: #f4f4f4;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+.grey3{
+    background-color: #f4f4f4;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+.grey4{
+    background-color: #f4f4f4;
+    width:auto;
+    height: auto;
+    padding: 5px;
+    border-top: orange solid 0.1px;
+    list-style: circle;
+}
+.grey5{
+    background-color: #f4f4f4;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border-bottom: orange solid 0.1px;
+    list-style: circle;
+}
+
+.padding1{
+    padding: 10px;
+    list-style: square;
+}
+.padding2{
+    padding: 10px;
+    list-style: square;
+}
+.padding3{
+    padding: 12px;
+}
+.padding4{
+    padding: 12px;
+}
+.ordered1 {
+    padding: 12px;
+}
+.ordered2 {
+    padding: 12px;
+}
+.ordered3 {
+    padding: 12px;
+}
+.order {
+    background-color: red;
+}
+.grup1 {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+.grup2 {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+.unorder {
+    background-color: orange;
+}
+.description {
+    background-color: rgb(80, 167, 196);
+}
+.grup3 {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}

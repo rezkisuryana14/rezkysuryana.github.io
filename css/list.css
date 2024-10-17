@@ -1,0 +1,108 @@
+ul.circle {
+    list-style-type: circle;
+}
+
+ul.square {
+    list-style-type: square;
+}
+
+ol.upper-roman {
+    list-style-type: upper-roman;
+}
+
+ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
+
+ul.remove-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menghilangkan bullet default */
+.horizontal-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+  
+/* Style setiap item menu */
+.horizontal-menu li {
+    margin: 0 15px;
+}
+
+/* Style link menu */
+.horizontal-menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Hover effect */
+.horizontal-menu li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Menghilangkan bullet default */
+.vertical-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 200px; /* Lebar menu */
+  background-color: #333;
+}
+
+/* Style setiap item menu */
+.vertical-menu li {
+  border-bottom: 1px solid #444;
+}
+
+/* Style link menu */
+.vertical-menu li a {
+  display: block;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #333;
+}
+
+/* Hover effect */
+.vertical-menu li a:hover {
+  background-color: #575757;
+}
+
+/* list-style-position */
+ul.outside {
+    list-style-position: outside;
+}
+
+.outside li {
+    background-color: blueviolet;
+}
+  
+ul.inside {
+    list-style-position: inside;
+}
+
+.inside li {
+    background-color: blueviolet;
+}
+
+/* list-style-image */
+.list-image {
+    list-style-image: url('/image/soft-drink.png');
+}
+
+/* list-style */
+.list-style {
+    list-style: square inside url("/image/soft-drink.png");
+}
+  

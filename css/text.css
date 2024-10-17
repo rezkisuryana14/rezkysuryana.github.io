@@ -1,0 +1,87 @@
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.center {
+    text-align: center;
+}
+.justify {
+    text-align: justify;
+}
+.arabic {
+    direction: rtl;
+    font-size: 20px;
+}
+.text-start {
+    text-align: start;
+}
+.text-end {
+    text-align: end;
+}
+.deleted {
+    text-decoration: none;
+}
+.upperline {
+    text-decoration: overline wavy green;
+}
+.underline {
+    text-decoration: underline dashed blueviolet;
+}
+.strike {
+    text-decoration: line-through red;
+}
+.capital {
+    text-transform: capitalize;
+    font-size: 30px;
+}       
+.upper {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.lower {
+    text-transform: lowercase;
+    font-size: 30px;
+}
+.small {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+}
+.line-height {
+    line-height: 1.6;
+    background-color: red;
+    color: white;
+}
+.indent {
+    text-indent: 2em;
+    background-color: blue;
+    color: white;
+}
+.nowrap {
+    white-space: nowrap;
+    background-color: green;
+    color: white;
+}
+.wordspacing {
+    letter-spacing: -2px;
+    word-spacing: 4px;
+    font-size: 20px;
+    background-color: indigo;
+    color: white;
+}
+.text-overflow {
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text-shadow {
+    color: orangered;
+    text-shadow: 3px 5px 6px rgba(0, 0, 0, 1);
+    font-size: 100px;
+    font-weight: bold;
+}

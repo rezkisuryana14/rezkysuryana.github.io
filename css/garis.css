@@ -1,0 +1,47 @@
+header {
+    border: 5px solid #000;
+}
+.border-singkat {
+    /* Top left bottom right */
+    border: 10px;
+    border-color: violet;
+    border-style: dotted;
+    padding: 10px;
+}
+.border {
+    border-top: 10px solid violet;
+    border-bottom: 10px solid violet;
+    border-left: 10px solid violet;
+    border-right: 10px solid violet;
+    padding: 10px;
+}
+.dash {
+    border: 5px;
+    border-color: orangered;
+    border-style: dashed;
+    padding: 10px;
+}
+.double-line {
+    border: 15px;
+    border-color: teal;
+    border-style: double;
+    padding: 15px;
+}
+.rounded-box {
+    background: blue;
+    color: aliceblue;
+    padding: 16px;
+    border-radius: 16px;
+    width: 250px;
+    height: 250px;
+}
+.box {
+    width: 400px;
+    height: 200px;
+    border: 10px solid transparent;
+    border-image-source: url('/image/border-new.png'); /*untuk menentukan source image yang akan dijadikan garis */
+    border-image-slice: 150; /* untuk menentukan gimana slicing gambar; */
+    border-image-width: 30px; /* untuk menentukan lebar gambar; */
+    border-image-outset: 0; /* untuk menentukan jarak antara border box ke luar; */
+    border-image-repeat: stretch; /* untuk menentukan repetisi gambar. */
+}

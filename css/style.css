@@ -1,0 +1,34 @@
+/* Selektor ID untuk Header */
+#header h1 {
+    color: darkblue;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Selektor Tag untuk Paragraf */
+p {
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+}
+
+/* Selektor Class untuk Informasi Kontak */
+.contact-info {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Selektor Pseudo untuk Hover Link Email */
+.contact-info a:hover {
+    color: red;
+}
+
+/* Gaya Tambahan */
+.profile {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}

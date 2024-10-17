@@ -1,0 +1,37 @@
+.hexa {
+    padding: 100px;
+    background-color: #ff00ff;
+    color: #000;
+}
+.rgb {
+    padding: 100px;
+    background-color: rgb(255,99,71);
+    color: #fff;
+}
+.rgba {
+    padding: 100px;
+    background-color: rgba(255,99,71,0.5);
+    color: rgb(255,255,255);
+}
+.hsl {
+    padding: 100px;
+    background-color: hsl(120, 20%, 50%);
+    color: rgb(0, 0, 0);
+}
+.hsla {
+    padding: 100px;
+    background: hsla(120, 100%, 50%, 0.7);
+    color: white;;
+}
+.gradasi {
+    padding: 100px;
+    background: rgb(254,250,224);
+    background: linear-gradient(0deg, rgba(254,250,224,1) 0%, rgba(166,179,125,1) 100%);
+    color: black;
+}
+body {
+    background-image: url(../gambar-gradasi.jpg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: auto;
+}

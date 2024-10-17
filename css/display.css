@@ -1,0 +1,75 @@
+.teks-merah {
+    color: red;
+}
+.block {
+    background-color: lightblue;
+    padding: 10px;
+}
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+.subheading {
+    padding-left: 30px;
+}
+span {
+    padding: 10px;
+    display: block;
+}
+#box-1 {
+    display: inline-block;
+    background-color: peachpuff;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+#box-2 {
+    display: inline-block;
+    background-color: lightcoral;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+.anak-1, .anak-2 {
+    display: block;
+    background-color: brown;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    color: azure;
+}
+.anak-3, .anak-4 {
+    display: inline;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    color: brown;
+}
+.box-none-1 {
+    display: block;
+    background-color: blueviolet;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.box-none-2 {
+    display: none;
+    background-color: coral;
+    padding: 20px;
+}
+#hidden {
+    visibility: hidden;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    background-color: brown;
+    margin: 10px;
+}
+#none {
+    display: none;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
+}
